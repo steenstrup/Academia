@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 0,
+    "Progress": 100,
+    "Title": "Surfce rationalization for Hot-wire and Hot-blade",
+    "Abstract": "Milling and 3D-printing are used in producing small prototypes of geometric objects, but for large projects these methods become extremely expensive. For large-scale production, like the tower, the HotWire and HotBlade technologies could instead produce building elements by cutting out expanded polystyrene (EPS) moulds for concrete casting.Our work focuses on approximating CAD model surfaces by ruled surfaces or elastica-swept surfaces.",
+    "Pdf": "AGGG.pdf",
+    "Image": "Elastica_swept_skate_park_corners.png",
+    "Year": 2020,
+    "Publisher": "DTU",
+    "Author": "Author"
+  },
+  {
+    "Id": 1,
+    "Progress": 100,
+    "Title": "Surfce rationalization for Hot-wire and Hot-blade",
+    "Abstract": "On a small scale, milling and 3D-printing are used in producing prototypes of geometric objects, but for large projectsthese methods become extremely expensive.For large - scaleproduction like the tower, the HotWire and HotBlade technologies could instead produce building elements by cutting out styrofoam molds for concrete casting. Our part of the BladeRunner project focuses on approximating CAD spline surfaces by ruled surfaces or surfaces that can be cut using the HotBlade.",
+    "Pdf": "SIAM.pdf",
+    "Image": "Elsatica.png",
+    "Year": 2020,
+    "Publisher": "DTU",
+    "Author": "Author"
+  },
+  {
+    "Id": 2,
+    "Progress": 100,
+    "Title": "VirtualTable",
+    "Abstract": "VirtualTable is a projection augmented reality installation where users are engaged in an interactive tower defense game. The installation runs continuously and is designed to attract people to a table, which the game is projected onto. Any number of players can join the game for an optional period of time. The goal is to prevent the virtual stylized soot balls, spawning on one side of the table, from reaching the cheese. To stop them, the players can place any kind of object on the table, that then will become part of the game. Depending on the object, it will become either a wall, an obstacle for the soot balls, or a tower, that eliminates them within a physical range. The number of enemies is dependent on the number of objects in the field, forcing the players to use strategy and collaboration and not the sheer number of objects to win the game.",
+    "Pdf": "pdf: 2",
+    "Image": "VirtualTable.png",
+    "Year": 2020,
+    "Publisher": "DTU",
+    "Author": "Author"
+  },
+  {
+    "Id": 3,
+    "Progress": 100,
+    "Title": "Robotic Hot-blade Cutting",
+    "Abstract": "This paper presents a novel method for cost-effective, robotic production of double curved formwork in Expanded Polystyrene (EPS) for in-situ and prefabricated concrete construction. A rationalization and segmentation procedure is developed, which allows for the transliteration of double curved NURBS surfaces to Euler elastica surface segments, while respecting various constraints of production. An 18 axis, tri - robot system approximates double curved NURBS surfaces by means of an elastically deformed and heated blade, mounted on the flanges of two manipulators.Re - orienting or translating either end of the blade dynamically deforms the blade's curvature. The blade follows the contours of the rationalized surface by continuous change in position and orientation of the end-effectors.The concept's potential is studied by a pilot production of a full-scale demonstrator panel assembly.",
+    "Pdf": "ddd",
+    "Image": "Robotic_Hot-blade_Cutting.jpg",
+    "Year": 2020,
+    "Publisher": "DTU",
+    "Author": "Author"
+  },
+  {
+    "Id": 4,
+    "Progress": 100,
+    "Title": "Cuttable ruled surface strips for milling",
+    "Abstract": "This paper proposes a novel pre-processing method for industrial robotic CNC-milling. The method targets a hybrid machining process, in which the main bulk of material is removed through robotic hot or abrasive wire cutting, after which regular CNC-machining is employed for removal of the remaining material volume.Hereby, the roughing process is significantly sped up, reducing overall machining time.We compare our method to the convex hull and remove between 5 % and 75 % more material; on most models we obtain a 50 % improvement.Our method ensures that no overcutting happens and that the result is cuttable by wire cutting.",
+    "Pdf": "None",
+    "Image": "CuttableRuledSurface.jpg",
+    "Year": 2020,
+    "Publisher": "DTU",
+    "Author": "Author"
+  },
+  {
+    "Id": 5,
+    "Progress": 100,
+    "Title": "Hot-blade Cutting for the Building Industries",
+    "Abstract": "The constructions of advanced architectural designs are presently very labour intensive, time consuming, and expensive. They are therefore only applied to a few prestige projects, and it is a major challenge for the building industry to bring the costs down and thereby offer the architects more variability in the (economically allowed) designs - i.e., to allow them to think out of the box. To address this challenge The Danish National Advanced Technology Foundation (now InnovationsFonden) is currently supporting the BladeRunner project that involves several Danish companies and public institutions. The project aims to reduce the amount of manual labour as well as production time by applying robots to cut expanded polystyrene (EPS) moulds for the concrete to form doubly curved surfaces. The scheme is based upon the so-called Hot Wire or Hot Blade technology where the surfaces are essentially swept out by driving an Euler elastica through a block of EPS. This paper will be centered around the mathematical challenges encountered in the implementation of this idea. Since the elastica themselves are well known and described in the works of Euler et al. already in eighteenth century, these new challenges are mainly concerned with the rationalization of the architects' CAD drawings into surfaces that can be created via this particular sweeping and cutting technology.",
+    "Pdf": "pdf: 5",
+    "Image": "Madifa.jpg",
+    "Year": 2020,
+    "Publisher": "DTU",
+    "Author": "Author"
+  }
+]

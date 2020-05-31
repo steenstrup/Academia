@@ -1,0 +1,35 @@
+@page "/articles"
+@using Academia.Shared
+@inject HttpClient Http
+@inject NavigationManager MyNavigationManager
+
+<h1>Articles</h1>
+
+@if (articles == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var article in articles)
+    {
+        @if (@article.Progress < 100)
+        {
+            <p>"Progress" @article.Progress</p>
+        }
+        
+        <p>@article.Title</p>
+        <p>@article.Abstract</p>
+        <p>@("Year: " + @article.Year + " Publisher: " + @article.Publisher + " Authors: " + @article.Author)</p>
+        <img src=@("image/article/" + article.Image) alt="Image" height="400">
+    }
+}
+
+@code {
+    private Academia.Shared.Article[] articles;
+
+    protected override async Task OnInitializedAsync()
+    {
+        articles = await Http.GetFromJsonAsync<Academia.Shared.Article[]>("Article");
+    }
+}
