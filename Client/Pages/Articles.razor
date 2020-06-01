@@ -17,11 +17,12 @@ else
         {
             <p>"Progress" @article.Progress</p>
         }
-        
-        <p>@article.Title</p>
+
+        <p><b>@article.Title</b></p>
         <p>@article.Abstract</p>
-        <p>@("Year: " + @article.Year + " Publisher: " + @article.Publisher + " Authors: " + @article.Author)</p>
+        <p><b>@("Year: " + @article.Year + " Publisher: " + @article.Publisher + " Authors: " + @article.Author)</b></p>
         <img src=@("image/article/" + article.Image) alt="Image" height="400">
+        <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
     }
 }
 

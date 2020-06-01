@@ -1,11 +1,8 @@
 ﻿using Academia.Shared;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -22,11 +19,14 @@ namespace Academia.Server.Controllers
             this.logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet()]
         public async Task<ActionResult<IEnumerable<Article>>> Get()
         {
             List<Article> articles = new List<Article>();
-            using (FileStream fs = System.IO.File.OpenRead(@"C:\Git\blazor\Academia\Server\ressurce\Article.json"))
+
+            var path = @"C:\Git\Blazor\Academia\Server\ressurce\Article.json";
+
+            using (FileStream fs = System.IO.File.OpenRead(path))
             {
                 articles = await JsonSerializer.DeserializeAsync<List<Article>>(fs);
             }
